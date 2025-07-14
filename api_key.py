@@ -11,7 +11,7 @@ from openai import OpenAI
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key="",
 )
 question = input("Enter your question:")
 
@@ -37,7 +37,7 @@ from openai import OpenAI
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key="",
 )
 question= input("Enter your question:")
 completion = client.chat.completions.create(
